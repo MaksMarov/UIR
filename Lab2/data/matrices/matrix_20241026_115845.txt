@@ -1,0 +1,7 @@
+0.0 inf inf inf inf inf inf
+inf 0.0 inf inf inf 6.0 inf
+inf inf 0.0 inf 7.0 inf inf
+inf inf inf 0.0 2.0 inf 7.0
+inf inf 7.0 2.0 0.0 5.0 2.0
+inf 6.0 inf inf 5.0 0.0 inf
+inf inf inf 7.0 2.0 inf 0.0

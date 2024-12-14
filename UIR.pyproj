@@ -1,0 +1,155 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5a1e673a-52f0-45a9-815a-49a132fd0024</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Lab3\crossroad\Lab3v1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>UIR</Name>
+    <RootNamespace>UIR</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lab2\algorithms.py" />
+    <Compile Include="lab2\analize.py" />
+    <Compile Include="lab2\benchmark.py" />
+    <Compile Include="lab2\adjacency_matrix.py" />
+    <Compile Include="lab2\visualization.py" />
+    <Compile Include="Lab3\crossroad\car.py" />
+    <Compile Include="Lab3\crossroad\cell.py" />
+    <Compile Include="Lab3\crossroad\data.py" />
+    <Compile Include="Lab3\crossroad\data_analysis.py" />
+    <Compile Include="Lab3\crossroad\enums.py" />
+    <Compile Include="Lab3\crossroad\crossroad.py" />
+    <Compile Include="Lab3\crossroad\Lab3v1.py" />
+    <Compile Include="Lab3\crossroad\simulation.py" />
+    <Compile Include="Lab3\crossroad\traffic_light_controller.py" />
+    <Compile Include="lessons\06_12_24.py" />
+    <Compile Include="lessons\06_12_24_2.py" />
+    <Compile Include="lessons\06_12_24_3.py" />
+    <Compile Include="lessons\18_10_24.py" />
+    <Compile Include="lab2\lab2.py" />
+    <Compile Include="lessons\22_11_24.py" />
+    <Compile Include="lessons\22_11_24_2.py" />
+    <Compile Include="lessons\25_10_24.py" />
+    <Compile Include="UIR.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lab2\" />
+    <Folder Include="lab2\data\analises\" />
+    <Folder Include="Lab2\data\analyses\" />
+    <Folder Include="lab2\data\matrices\" />
+    <Folder Include="lab2\data\" />
+    <Folder Include="lab2\data\visualisations\" />
+    <Folder Include="Lab3\" />
+    <Folder Include="Lab3\crossroad\" />
+    <Folder Include="Lab3\crossroad\results\" />
+    <Folder Include="lessons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lab2\data\analyses\analyse_data_time.png" />
+    <Content Include="Lab3\crossroad\results\average_wait_time_per_car_2024-12-13_15-36-55.png" />
+    <Content Include="Lab3\crossroad\results\average_wait_time_per_car_2024-12-13_15-41-42.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-10-59.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-13-33.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-19-15.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-21-46.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-24-01.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-26-13.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-27-52.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-33-23.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-45-30.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-50-53.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-58-09.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_15-38-21.png" />
+    <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_15-42-45.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-18-44.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-21-22.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-23-42.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-25-55.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-27-32.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-32-30.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-44-58.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-49-42.png" />
+    <Content Include="Lab3\crossroad\results\car_wait_times_2024-12-13_12-56-37.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-10-59.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-13-37.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-19-29.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-22-12.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-24-03.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-26-30.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-28-07.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-33-31.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-45-31.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-51-09.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_12-58-45.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_15-38-27.png" />
+    <Content Include="Lab3\crossroad\results\congestion_over_time_2024-12-13_15-42-48.png" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_11-41-43.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-04-43.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-05-22.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-07-03.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-10-55.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-10-59.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-13-17.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-13-41.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-14-58.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-16-00.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-17-20.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-18-44.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-21-15.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-22-20.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-23-41.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-24-09.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-25-54.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-26-43.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-27-31.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-28-23.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-32-14.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-40-27.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-44-40.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-45-33.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-49-03.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-54-24.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_12-56-03.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_13-01-19.csv" />
+    <Content Include="Lab3\crossroad\results\result_2024-12-13_15-43-06.csv" />
+    <Content Include="Lab3\crossroad\results\SimData_2024-12-13_15-36-55.csv" />
+    <Content Include="Lab3\crossroad\results\SimData_2024-12-13_15-41-41.csv" />
+    <Content Include="Lab3\crossroad\results\total_wait_time_by_step_2024-12-13_15-37-45.png" />
+    <Content Include="Lab3\crossroad\results\total_wait_time_by_step_2024-12-13_15-42-09.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-10-58.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-13-17.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-19-04.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-21-41.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-23-51.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-26-08.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-27-47.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-33-00.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-45-28.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-50-37.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-57-38.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_15-38-15.png" />
+    <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_15-42-43.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
