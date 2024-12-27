@@ -1,5 +1,4 @@
 import random
-from urllib import request
 import matplotlib.pyplot as plt
 
 class Channel():

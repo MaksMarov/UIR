@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a1e673a-52f0-45a9-815a-49a132fd0024</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lab3\crossroad\Lab3v1.py</StartupFile>
+    <StartupFile>Lab4\Lab4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,11 @@
     <Compile Include="Lab3\crossroad\Lab3v1.py" />
     <Compile Include="Lab3\crossroad\simulation.py" />
     <Compile Include="Lab3\crossroad\traffic_light_controller.py" />
+    <Compile Include="Lab4\channel.py" />
+    <Compile Include="Lab4\data.py" />
+    <Compile Include="Lab4\Lab4.py" />
+    <Compile Include="Lab4\request.py" />
+    <Compile Include="Lab4\smo.py" />
     <Compile Include="lessons\06_12_24.py" />
     <Compile Include="lessons\06_12_24_2.py" />
     <Compile Include="lessons\06_12_24_3.py" />
@@ -56,6 +61,7 @@
     <Folder Include="Lab3\crossroad\" />
     <Folder Include="Lab3\crossroad\results\" />
     <Folder Include="lessons\" />
+    <Folder Include="Lab4\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lab2\data\analyses\analyse_data_time.png" />
