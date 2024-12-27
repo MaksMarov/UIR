@@ -18,7 +18,7 @@ class Queue():
         self.received_requests = 0
         
     def is_empty(self):
-        return len(self.requests) > 0
+        return len(self.requests) <= 0
 
     def update(self):
         for request in self.requests:
@@ -34,7 +34,8 @@ class Queue():
     def new_request(self):
         self.received_requests += 1
         self.requests.append(Request(self.received_requests))
-        self.current_request_generation_time = int(self.base_request_generation_time * random.uniform(0.9, 1.1))
+        self.current_request_generation_time = self.base_request_generation_time + random.randint(-1, 1)
+        print(f"Got request #{self.received_requests}")
         
     def get_next_request(self):
         if len(self.requests) > 0:

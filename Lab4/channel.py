@@ -11,12 +11,12 @@ class Channel():
         self.time = 0
         
     def is_busy(self):
-        return True if self.request else False
+        return True if self.request is not None else False
     
     def take_request(self, request):
         if request:
             self.request = request
-            self.current_processing_time = int(self.base_processing_time * random.uniform(0.9, 1.1))
+            self.current_processing_time = self.base_processing_time + random.randint(-1, 1)
             print(f"Channel #{self.number} processing the request number {self.request.number}")
         else:
             print(f"Incorrect request! Request = {request}, Channel = {self.number}")
@@ -35,5 +35,5 @@ class Channel():
         self.request = None
         print(f"Channel #{self.number} has finished processing the request")
         
-    def get_average__processing_intensity(self):
-        return (self.busy_time / len(self.done_requests)) if self.done_requests > 0 else 0
+    def get_average_processing_intensity(self):
+        return (self.busy_time / len(self.done_requests)) if len(self.done_requests) > 0 else 0

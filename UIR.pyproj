@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a1e673a-52f0-45a9-815a-49a132fd0024</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lab4\Lab4.py</StartupFile>
+    <StartupFile>Lab4\lab4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,7 +37,7 @@
     <Compile Include="Lab3\crossroad\traffic_light_controller.py" />
     <Compile Include="Lab4\channel.py" />
     <Compile Include="Lab4\data.py" />
-    <Compile Include="Lab4\Lab4.py" />
+    <Compile Include="Lab4\lab4.py" />
     <Compile Include="Lab4\request.py" />
     <Compile Include="Lab4\smo.py" />
     <Compile Include="lessons\06_12_24.py" />
