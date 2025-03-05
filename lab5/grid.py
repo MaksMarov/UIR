@@ -154,5 +154,4 @@ class Grid:
         self.people = new_people
 
     def complete(self):
-        return len(self.people) < 1 
-                
+        return len(self.people) < 1
