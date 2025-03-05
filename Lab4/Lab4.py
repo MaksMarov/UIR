@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from Lab4.smo import SMO
 
-russka_pochta = SMO(channels_count=5, lam=1, mu=1/8, shift_time=1000)
+russka_pochta = SMO(channels_count=5, lam=0.9, mu=1/16, shift_time=1000)
 russka_pochta.start_shift()
 data = russka_pochta.get_components_data()
 print(data)

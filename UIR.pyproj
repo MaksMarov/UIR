@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a1e673a-52f0-45a9-815a-49a132fd0024</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lab4\lab4.py</StartupFile>
+    <StartupFile>lab5\lab.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,6 +40,17 @@
     <Compile Include="Lab4\lab4.py" />
     <Compile Include="Lab4\request.py" />
     <Compile Include="Lab4\smo.py" />
+    <Compile Include="lab5\cell.py" />
+    <Compile Include="lab5\data_tool.py" />
+    <Compile Include="lab5\enums.py" />
+    <Compile Include="lab5\grid.py" />
+    <Compile Include="lab5\lab.py" />
+    <Compile Include="lab5\map_editor.py" />
+    <Compile Include="lab5\params.py" />
+    <Compile Include="lab5\person.py" />
+    <Compile Include="lab5\plot_results.py" />
+    <Compile Include="lab5\renderer.py" />
+    <Compile Include="lab5\simulation.py" />
     <Compile Include="lessons\06_12_24.py" />
     <Compile Include="lessons\06_12_24_2.py" />
     <Compile Include="lessons\06_12_24_3.py" />
@@ -62,6 +73,7 @@
     <Folder Include="Lab3\crossroad\results\" />
     <Folder Include="lessons\" />
     <Folder Include="Lab4\" />
+    <Folder Include="lab5\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lab2\data\analyses\analyse_data_time.png" />

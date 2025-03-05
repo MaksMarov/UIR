@@ -16,7 +16,7 @@ class Game():
         self.cpg = int(self.crossroad_type.value * 4 * 2 / 3)
         self.crossroad = Crossroad(self.crossroad_type, self.road_lenght)
         self.tl_controller = TrafficLightController(self.tl_manager_type, self.crossroad.get_tlights(), self.crossroad.get_zones())
-        self.car_controller = CarController(points=self.crossroad.get_start_end_points(), cars_per_generation=self.cpg, gen_priority=GenerationPriority.EW, start_delay_tick=40, end_delay_tick=3, generations_count=50)
+        self.car_controller = CarController(points=self.crossroad.get_start_end_points(), cars_per_generation=self.cpg, gen_priority=GenerationPriority.EW, start_delay_tick=40, end_delay_tick=3, generations_count=30)
         self.widht_in_cell = len(self.crossroad.grid)
         self.height_in_cell = len(self.crossroad.grid)
         self.cell_size = 15
