@@ -71,6 +71,7 @@
     <Folder Include="Lab3\" />
     <Folder Include="Lab3\crossroad\" />
     <Folder Include="Lab3\crossroad\results\" />
+    <Folder Include="lab5\data\" />
     <Folder Include="lessons\" />
     <Folder Include="Lab4\" />
     <Folder Include="lab5\" />
@@ -160,6 +161,27 @@
     <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_12-57-38.png" />
     <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_15-38-15.png" />
     <Content Include="Lab3\crossroad\results\traffic_light_load_2024-12-13_15-42-43.png" />
+    <Content Include="lab5\data\every_tick_reculc.csv" />
+    <Content Include="lab5\data\every_tick_reculc.png" />
+    <Content Include="lab5\data\experiment_map_dangerous.csv" />
+    <Content Include="lab5\data\experiment_map_safe.csv" />
+    <Content Include="lab5\data\exp_dangerous_result.csv" />
+    <Content Include="lab5\data\exp_dangerous_result.png" />
+    <Content Include="lab5\data\exp_dangerous_result_chaotick.csv" />
+    <Content Include="lab5\data\exp_dangerous_result_chaotick.png" />
+    <Content Include="lab5\data\exp_map.csv" />
+    <Content Include="lab5\data\exp_result_chaotick.csv" />
+    <Content Include="lab5\data\exp_safe_result.csv" />
+    <Content Include="lab5\data\exp_safe_result.png" />
+    <Content Include="lab5\data\exp_safe_result_chaotick.png" />
+    <Content Include="lab5\data\map.csv" />
+    <Content Include="lab5\data\map2.csv" />
+    <Content Include="lab5\data\one_recalc.csv" />
+    <Content Include="lab5\data\one_recalc.png" />
+    <Content Include="lab5\data\school.csv" />
+    <Content Include="lab5\data\school_dangerous.csv" />
+    <Content Include="lab5\data\test_results.csv" />
+    <Content Include="lab5\data\test_results.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
