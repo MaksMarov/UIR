@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a1e673a-52f0-45a9-815a-49a132fd0024</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lab5\lab.py</StartupFile>
+    <StartupFile>Lab2_1\lab1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,12 @@
     <Compile Include="lab2\benchmark.py" />
     <Compile Include="lab2\adjacency_matrix.py" />
     <Compile Include="lab2\visualization.py" />
+    <Compile Include="Lab2_1\lab1.py" />
+    <Compile Include="Lab2_1\lattice.py" />
+    <Compile Include="Lab2_2\1 %282%29.py" />
+    <Compile Include="Lab2_2\lab2.py" />
+    <Compile Include="Lab2_3\модуль1.py" />
+    <Compile Include="Lab2_4\newrulNeywork.py" />
     <Compile Include="Lab3\crossroad\car.py" />
     <Compile Include="Lab3\crossroad\cell.py" />
     <Compile Include="Lab3\crossroad\data.py" />
@@ -68,6 +74,7 @@
     <Folder Include="lab2\data\matrices\" />
     <Folder Include="lab2\data\" />
     <Folder Include="lab2\data\visualisations\" />
+    <Folder Include="Lab2_1\data\" />
     <Folder Include="Lab3\" />
     <Folder Include="Lab3\crossroad\" />
     <Folder Include="Lab3\crossroad\results\" />
@@ -75,9 +82,14 @@
     <Folder Include="lessons\" />
     <Folder Include="Lab4\" />
     <Folder Include="lab5\" />
+    <Folder Include="Lab2_1\" />
+    <Folder Include="Lab2_2\" />
+    <Folder Include="Lab2_3\" />
+    <Folder Include="Lab2_4\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lab2\data\analyses\analyse_data_time.png" />
+    <Content Include="full_data.txt" />
     <Content Include="Lab3\crossroad\results\average_wait_time_per_car_2024-12-13_15-36-55.png" />
     <Content Include="Lab3\crossroad\results\average_wait_time_per_car_2024-12-13_15-41-42.png" />
     <Content Include="Lab3\crossroad\results\car_count_vs_delay_2024-12-13_12-10-59.png" />

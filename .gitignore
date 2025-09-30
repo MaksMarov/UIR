@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Lab2_1/data
+/Lab3/crossroad/results
+/lab5/Data/test_results.csv
+/full_data.txt
